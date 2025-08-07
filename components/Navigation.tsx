@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
-import { Menu, X, Moon, Sun, Phone, MapPin } from 'lucide-react';
+import { Menu, X, Moon, Sun } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function Navigation() {
@@ -29,28 +29,9 @@ export function Navigation() {
 
   return (
     <>
-      {/* Top Bar */}
-      <div className="bg-deep-navy text-ivory py-2 px-6 text-sm">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
-              <Phone size={14} />
-              <span>(555) 123-LUXE</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <MapPin size={14} />
-              <span>Beverly Hills, CA</span>
-            </div>
-          </div>
-          <div className="text-xs">
-            Board-Certified Specialists • FDA Approved Treatments
-          </div>
-        </div>
-      </div>
-
       {/* Main Navigation */}
       <nav
-        className={`fixed top-8 left-0 right-0 z-50 transition-all duration-500 ${
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           isScrolled
             ? 'bg-white/95 dark:bg-deep-navy/95 backdrop-blur-lg shadow-luxury'
             : 'bg-transparent'
