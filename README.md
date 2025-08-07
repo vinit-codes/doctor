@@ -1,7 +1,5 @@
 # Luxe Aesthetics - Modern Medical Spa Website
 
-![Luxe Aesthetics](https://doctor-okje.vercel.app/preview.png)
-
 [🌐 Live Demo](https://doctor-okje.vercel.app/) | [📱 Mobile-Friendly](#responsive-design) | [🎨 Advanced Animations](#animations-and-interactions)
 
 ## 🚀 Technical Highlights
